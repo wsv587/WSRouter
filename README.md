@@ -22,7 +22,7 @@ pod 'WSRouter'
 ```
 
 ### Source code
-把WSRouter/Classes文件夹下的所有.h、.m文件拖入工程中。
+把`WSRouter/Classes`文件夹下的所有.h、.m文件拖入工程中。
 
 ## Usage
 1.引入主头文件`#import <WSRouter/WSRouter.h>`或`#import WSRouter.h`

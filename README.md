@@ -13,12 +13,16 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
+### Cocoapods
 WSRouter is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
 pod 'WSRouter'
 ```
+
+### Source code
+把WSRouter/Classes文件夹下的所有.h、.m文件拖入工程中。
 
 ## Author
 

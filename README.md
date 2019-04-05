@@ -40,8 +40,8 @@ pod 'WSRouter'
     [WSRouter registerRouterWithPrefixURL:url handler:^UIViewController *(NSURL *URL, UIViewController *sourceViewController) {
         UIViewController *destViewController = [[WSPushedViewController alloc] init];
         [WSRouter transferViewController:destViewController
-fromViewController:sourceViewController
-transition:WSTransitionPush];
+                      fromViewController:sourceViewController
+                              transition:WSTransitionPush];
         return destViewController;
     }];
 }

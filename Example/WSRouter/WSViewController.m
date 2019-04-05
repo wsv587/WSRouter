@@ -7,8 +7,14 @@
 //
 
 #import "WSViewController.h"
+#import "WSRouter.h"
 
 @interface WSViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *pushButton;
+
+@property (weak, nonatomic) IBOutlet UIButton *presentButton;
+- (IBAction)push:(id)sender;
+- (IBAction)present:(id)sender;
 
 @end
 
@@ -17,7 +23,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+
 }
 
 - (void)didReceiveMemoryWarning
@@ -26,4 +32,11 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)push:(id)sender {
+    [WSRouter transferFromViewController:self toURL:[NSURL URLWithString:@"WS://www.ws.com/first?uid=666"]];
+}
+
+- (IBAction)present:(id)sender {
+    [WSRouter transferFromViewController:self toURL:[NSURL URLWithString:@"WS://www.ws.com/second?uid=999"]];
+}
 @end

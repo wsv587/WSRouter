@@ -1,0 +1,16 @@
+PODS:
+  - WSRouter (0.1.0)
+
+DEPENDENCIES:
+  - WSRouter (from `../`)
+
+EXTERNAL SOURCES:
+  WSRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WSRouter: 421ec8be182815c2b3b8bd8dc502a2e821fd0f72
+
+PODFILE CHECKSUM: 87b19015d3f986dc9aa0d63b52ecc2136322bd92
+
+COCOAPODS: 1.5.3

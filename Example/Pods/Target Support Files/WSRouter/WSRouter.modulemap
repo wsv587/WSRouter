@@ -1,0 +1,6 @@
+framework module WSRouter {
+  umbrella header "WSRouter-umbrella.h"
+
+  export *
+  module * { export * }
+}

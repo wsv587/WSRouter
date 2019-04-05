@@ -11,7 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface WSPushedViewController : UIViewController
-
+@property(nonatomic) NSDictionary *params;
 @end
 
 NS_ASSUME_NONNULL_END

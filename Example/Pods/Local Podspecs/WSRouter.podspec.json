@@ -1,18 +1,18 @@
 {
   "name": "WSRouter",
   "version": "0.1.0",
-  "summary": "A short description of WSRouter.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/nlgb/WSRouter",
+  "summary": "An url-based and light-weight router for iOS app.",
+  "description": "An url-based and light-weight router for iOS app...",
+  "homepage": "https://github.com/wsv587/WSRouter",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "nlgb": "wanggyanmo@163.com"
+    "ws": "wanggyanmo@163.com"
   },
   "source": {
-    "git": "https://github.com/nlgb/WSRouter.git",
+    "git": "https://github.com/wsv587/WSRouter.git",
     "tag": "0.1.0"
   },
   "platforms": {

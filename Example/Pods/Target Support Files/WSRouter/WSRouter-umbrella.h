@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "NSString+WSRouter.h"
 #import "WSRouter.h"
 #import "WSRouterHandler.h"
 

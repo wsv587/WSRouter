@@ -24,6 +24,11 @@ pod 'WSRouter'
 ### Source code
 把WSRouter/Classes文件夹下的所有.h、.m文件拖入工程中。
 
+## Usage
+1.引入主头文件`#import <WSRouter/WSRouter.h>`或`#import WSRouter.h`
+2.在+(void)load方法中使用`WSRouter的registerRouterWithPrefixURL`系列方法注册URL 
+3.使用`transferFromViewController`系列方法实现控制器跳转
+
 ## Author
 
 nlgb, wanggyanmo@163.com

@@ -56,7 +56,7 @@ pod 'WSRouter'
 
 ## Author
 
-nlgb, wanggyanmo@163.com
+wsv587, wanggyanmo@163.com
 
 ## License
 

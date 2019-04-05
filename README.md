@@ -32,25 +32,23 @@ pod 'WSRouter'
 3.使用`transferFromViewController`系列方法实现控制器跳转
 
 ## Example
-###1.注册
+### 1.注册
 ```ruby
 
 + (void)load {
-NSURL *url = [NSURL URLWithString:@"WS://www.ws.com/first"];
-[WSRouter registerRouterWithPrefixURL:url handler:^UIViewController *(NSURL *URL, UIViewController *sourceViewController) {
-UIViewController *destViewController = [[WSPushedViewController alloc] init];
-[WSRouter transferViewController:destViewController
+    NSURL *url = [NSURL URLWithString:@"WS://www.ws.com/first"];
+    [WSRouter registerRouterWithPrefixURL:url handler:^UIViewController *(NSURL *URL, UIViewController *sourceViewController) {
+        UIViewController *destViewController = [[WSPushedViewController alloc] init];
+        [WSRouter transferViewController:destViewController
 fromViewController:sourceViewController
 transition:WSTransitionPush];
-return destViewController;
-}];
-[self registerFirst];
-[self registerSecond];
+        return destViewController;
+    }];
 }
 
 ```
 
-###2.跳转
+### 2.跳转
 ```ruby
 [WSRouter transferFromViewController:self toURL:[NSURL URLWithString:@"WS://www.ws.com/first?uid=666"]];
 

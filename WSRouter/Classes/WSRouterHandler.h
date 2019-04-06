@@ -20,6 +20,6 @@ typedef UIViewController * (^WSRouterHandler)(NSURL *URL, UIViewController *sour
 
 typedef void (^WSRouterTransferCompletionHandler)(UIViewController * destViewController);
 
-typedef void (^WSRouterResultCallback)(UIViewController *destViewController, id data);
+typedef void (^WSRouterResultCallback)(UIViewController *destViewController, id callbackData);
 
 #endif /* WSRouterHandler_h */

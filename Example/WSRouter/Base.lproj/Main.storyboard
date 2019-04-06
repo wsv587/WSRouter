@@ -37,6 +37,14 @@
                                     <action selector="present:" destination="whP-gf-Uak" eventType="touchUpInside" id="fn0-9F-zj8"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NCb-0h-Xlw">
+                                <rect key="frame" x="124" y="210" width="127" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="push with callback"/>
+                                <connections>
+                                    <action selector="pushWithCallback:" destination="whP-gf-Uak" eventType="touchUpInside" id="am0-tf-KmF"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
@@ -44,6 +52,7 @@
                     <connections>
                         <outlet property="presentButton" destination="Vv4-7C-HXh" id="39F-JQ-oLt"/>
                         <outlet property="pushButton" destination="1G5-9L-Hj5" id="qRE-5t-T4S"/>
+                        <outlet property="pushWithCallBackButton" destination="NCb-0h-Xlw" id="8np-SU-7HT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tc2-Qw-aMS" userLabel="First Responder" sceneMemberID="firstResponder"/>

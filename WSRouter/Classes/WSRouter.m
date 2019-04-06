@@ -50,14 +50,44 @@ static NSMutableDictionary<NSString *, NSMutableArray *> *RouterMap = nil;
 
 #pragma mark - Transfer
 + (void)transferFromViewController:(UIViewController *)sourceViewController toURL:(NSURL *)URL {
-    [self transferFromViewController:sourceViewController toURL:URL complation:nil];
+    [self transferFromViewController:sourceViewController
+                               toURL:URL
+                          completion:nil];
 }
 
-+ (void)transferFromViewController:(UIViewController *)sourceViewController toURL:(NSURL *)URL complation:(WSRouterTransferCompletionHandler)completionHandler {
-    [self transferFromViewController:sourceViewController toURL:URL complation:completionHandler resultCallback:nil];
++ (void)transferFromViewController:(UIViewController *)sourceViewController toURL:(NSURL *)URL completion:(WSRouterTransferCompletionHandler)completionHandler {
+    [self transferFromViewController:sourceViewController
+                               toURL:URL
+                          completion:completionHandler
+           viewWillDisappearCallBack:nil
+            viewDidDisappearCallBack:nil];
 }
 
-+ (void)transferFromViewController:(UIViewController *)sourceViewController toURL:(NSURL *)URL complation:(WSRouterTransferCompletionHandler)completionHandler resultCallback:(WSRouterResultCallback)resultCallback {
++ (void)transferFromViewController:(UIViewController *)sourceViewController
+                             toURL:(NSURL *)URL
+         viewWillDisappearCallBack:(WSRouterResultCallback)viewWillDisappearCallBack {
+    [self transferFromViewController:sourceViewController
+                               toURL:URL
+                          completion:nil
+           viewWillDisappearCallBack:viewWillDisappearCallBack
+            viewDidDisappearCallBack:nil];
+}
+
++ (void)transferFromViewController:(UIViewController *)sourceViewController
+                             toURL:(NSURL *)URL
+          viewDidDisappearCallBack:(WSRouterResultCallback)viewDidDisappearCallBack {
+    [self transferFromViewController:sourceViewController
+                               toURL:URL
+                          completion:nil
+           viewWillDisappearCallBack:nil
+            viewDidDisappearCallBack:viewDidDisappearCallBack];
+}
+
++ (void)transferFromViewController:(UIViewController *)sourceViewController
+                             toURL:(NSURL *)URL
+                        completion:(WSRouterTransferCompletionHandler)completionHandler
+         viewWillDisappearCallBack:(WSRouterResultCallback)viewWillDisappearCallBack
+          viewDidDisappearCallBack:(WSRouterResultCallback)viewDidDisappearCallBack {
     NSParameterAssert(URL);
     NSParameterAssert([URL isKindOfClass:[NSURL class]]);
     NSParameterAssert(![URL.absoluteString isEqualToString:@""]);
@@ -71,7 +101,9 @@ static NSMutableDictionary<NSString *, NSMutableArray *> *RouterMap = nil;
     }
     
     UIViewController *sourceController = sourceViewController ?: [self topViewController];
-    [self p_transferFromViewController:sourceController toURL:URL completion:completionHandler];
+    UIViewController *destController = [self p_transferFromViewController:sourceController toURL:URL completion:completionHandler];
+    destController.router_viewWillDisappearCallBack = viewWillDisappearCallBack;
+    destController.router_viewDidDisappearCallBack = viewDidDisappearCallBack;
 }
 
 + (UIViewController *)p_transferFromViewController:(UIViewController *)sourceViewController

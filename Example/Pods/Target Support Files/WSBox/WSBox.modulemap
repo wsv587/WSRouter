@@ -1,0 +1,6 @@
+framework module WSBox {
+  umbrella header "WSBox-umbrella.h"
+
+  export *
+  module * { export * }
+}

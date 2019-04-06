@@ -7,6 +7,8 @@
 //
 
 #import "WSPushedViewController.h"
+#import <WSBox/WSBox.h>
+#import "WSRouter.h"
 
 @interface WSPushedViewController ()
 
@@ -18,7 +20,18 @@
     [super viewDidLoad];
 
     self.view.backgroundColor = [UIColor redColor];
+    
+    self.router_callbackData = @"callback_DATA";
 }
 
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+    NSLog(@"will Disappear");
+}
+
+- (void)dealloc {
+    
+    NSLog(@"dealloc");
+}
 
 @end

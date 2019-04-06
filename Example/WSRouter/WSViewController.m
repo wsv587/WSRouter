@@ -11,9 +11,12 @@
 
 @interface WSViewController ()
 @property (weak, nonatomic) IBOutlet UIButton *pushButton;
+@property (weak, nonatomic) IBOutlet UIButton *pushWithCallBackButton;
 
 @property (weak, nonatomic) IBOutlet UIButton *presentButton;
 - (IBAction)push:(id)sender;
+- (IBAction)pushWithCallback:(id)sender;
+
 - (IBAction)present:(id)sender;
 
 @end
@@ -26,8 +29,25 @@
 
 }
 
+
+- (void)viewWillDisappear:(BOOL)animated {
+    [super viewWillDisappear:animated];
+//    NSLog(@"disappear__");
+}
+
 - (IBAction)push:(id)sender {
-    [WSRouter transferFromViewController:self toURL:[NSURL URLWithString:@"WS://www.ws.com/first?uid=666"]];
+    [WSRouter transferFromViewController:self
+                                   toURL:[NSURL URLWithString:@"WS://www.ws.com/first?uid=666"]];
+}
+
+- (IBAction)pushWithCallback:(id)sender {
+    [WSRouter transferFromViewController:self
+                                   toURL:[NSURL URLWithString:@"WS://www.ws.com/first?uid=666"]
+               viewWillDisappearCallBack:^(UIViewController *destViewController, id callbackData) {
+                   NSLog(@"%@",callbackData);
+                   UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:callbackData delegate:nil cancelButtonTitle:@"cancel" otherButtonTitles:nil, nil];
+                   [alert show];
+               }];
 }
 
 - (IBAction)present:(id)sender {

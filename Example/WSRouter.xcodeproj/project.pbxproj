@@ -43,7 +43,7 @@
 		0D7552A67E204974AF19051A /* Pods-WSRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSRouter_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSRouter_Example/Pods-WSRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
 		35761BA3CAA2FFDB74DA915F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		36F5556E4B1950AB77C85E29 /* Pods_WSRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D4367A66768E0BA3AF442F1 /* WSRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WSRouter.podspec; path = ../WSRouter.podspec; sourceTree = "<group>"; };
+		3D4367A66768E0BA3AF442F1 /* WSRouter.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WSRouter.podspec; path = ../WSRouter.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		44D9B24A1FA75FDCD6762171 /* Pods-WSRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSRouter_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WSRouter_Tests/Pods-WSRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WSRouter_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WSRouter_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -335,10 +335,12 @@
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-WSRouter_Example/Pods-WSRouter_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/WSBox/WSBox.framework",
 				"${BUILT_PRODUCTS_DIR}/WSRouter/WSRouter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WSBox.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WSRouter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;

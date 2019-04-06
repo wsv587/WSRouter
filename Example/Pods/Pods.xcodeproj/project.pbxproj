@@ -7,84 +7,195 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CA68D69364308F0DE247D27808911D9 /* Pods-WSRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC14B50A71A279618CC1F573DB57646 /* Pods-WSRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31526135A67101E401A276B9B2A7CECE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		3802955DFAF7197FE9D10AD3C7E8867B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		53DA12D216D9DAB36B3AB20318B336FB /* WSRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 24860A7C15BB65FD11B9FF9E69C2FF1B /* WSRouter-dummy.m */; };
-		596C73D9F12F985A1F7961ED6334C964 /* WSRouterHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A8E5B8764537CFB22A7F667679120161 /* WSRouterHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		019242F0EAE070B34B78932F3C4742D8 /* NSString+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = AFA66863F57C1C5B1C22563208981BB2 /* NSString+NSHash.m */; };
+		0ABAF835534A23CA3E0E1FC3F8DCA32E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBADB19E92A2585CA80E64770AF895AB /* Foundation.framework */; };
+		0E4436EAA65AD09D7060AC94DE39696B /* NSString+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 53945DDCB5B4982F113A65E03238F212 /* NSString+WSExtension.m */; };
+		0FDB130DF5D5B6E4644CB731FFEE7579 /* WSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = C292B71C2960296BC1EC35E3C3EA7597 /* WSSwizzle.m */; };
+		123F08275D4C7E65A0DA17C3B6CB8DCA /* WSBox-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ABA0E6B8EEFAE307157D00A50675F53 /* WSBox-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		158CAD413EE305E466FFE3F9E3C2DEF0 /* NSMutableArray+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F2F9F7A0634B2B7AB972E9C1E1986B /* NSMutableArray+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DB8076CDCBEF48D18449DC098472EDE /* WSRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 55E9F9B502F611FDAE3A8F6BCEEF6EC6 /* WSRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		22DDE567E7D5ADD869B621BB70D0A1C5 /* WSMoneyConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 0ED168E779480214452EA2C904DDE001 /* WSMoneyConversion.m */; };
+		2E72BF5F9E6CBB64756CBE385DA85C56 /* NSArray+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 29B6E5EEF5C6AE494A46B52E555F43C4 /* NSArray+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3312C23622EBD135F3CCAB705FAE4295 /* UIViewController+WSRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = BE4A15273D3010E4CD10C9AC592A6D96 /* UIViewController+WSRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D51AB3C18D12B7DDE85EAC46D519159 /* UITextView+WSPlaceholder.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EEEB477E6235A70B9D799832A9C616D /* UITextView+WSPlaceholder.m */; };
+		46E02384EF8CE875E928DB5501708F69 /* WSColorHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E167434EAF52E989A156CEF497B8C16E /* WSColorHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47BA41C8DA549287E98B1E93E39F9E89 /* UIBarButtonItem+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 715BB1B07B7D5510DCDF48A08D84D9BD /* UIBarButtonItem+WSExtension.m */; };
+		64D495D87260DC9A51B7B96F5AEB86A3 /* NSString+WSRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 64D1687DD4B42F5539ADE9E588137715 /* NSString+WSRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6E46F0489F77BAD33176AB39591339B8 /* NSString+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = 837A8C7497944EEFA00124389E515AF5 /* NSString+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6EDE21D9532F5AD58713637A821537F9 /* WSTimeConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = CB29D22D55E3DE2B6A4179D140BA59A0 /* WSTimeConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73B15F974E14CF684269B25D6EFBB92E /* UITextView+WSPlaceholder.h in Headers */ = {isa = PBXBuildFile; fileRef = 96982CE8FB5691BF3F193AA4EFFDDAAE /* UITextView+WSPlaceholder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		77A6C6B4FBDE6E1A58F652E9A32153F4 /* Pods-WSRouter_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57B7AE4F9906E0EF95EB9F45BBDE0C4E /* Pods-WSRouter_Tests-dummy.m */; };
-		7D6DABFF07647B365A0953BC087E6364 /* WSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D65F01B080543EFF88347CB34949086 /* WSRouter.m */; };
-		81FD3254166E95D4CD3D92089EEE60D8 /* WSRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 089FA6315428B8878AB3AEFBFEE00110 /* WSRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		79B07415F71D2E76389905372BF6B2F3 /* UIToolbar+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A7352BF24A4050C7C5488E9AA28385B5 /* UIToolbar+WSExtension.m */; };
+		7AAA3466CEB778276E3E4C3A9FEC6BEE /* WSRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ABA8421C310796A28D68FCB7A5FE3F5 /* WSRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C8201EE31B8356073E6EA10C2870B1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBADB19E92A2585CA80E64770AF895AB /* Foundation.framework */; };
 		91A5F8F6DFE1D6D018465FB6EBBC884F /* Pods-WSRouter_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EA3811FCA11EF451829FD10919242766 /* Pods-WSRouter_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		920905C9C00FEE0DFFA84E4F58A9946C /* WSRouter-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE89E39EF6E21D66555F987EFBF44C04 /* WSRouter-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FB67C9D5459E707707DB3F0A9842782 /* Pods-WSRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 766F3F579A300303E5A2EEDCB5BB272A /* Pods-WSRouter_Example-dummy.m */; };
-		D9ED6B1BFD549CE835B970F32056C814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		DE3CD73495758E338DEE8344B0BB94AD /* NSString+WSRouter.h in Headers */ = {isa = PBXBuildFile; fileRef = 9EC0EE0E70A83C45C173337927B79527 /* NSString+WSRouter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E2F7EB2EA3DF682605D283F4E96D23D2 /* NSString+WSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D5EFFF7CC3D983EE834D100D39C23CB4 /* NSString+WSRouter.m */; };
+		A57C1CAD53FB4B04C10839701057FCE8 /* NSFileManager+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCA86C1250EFDD6BEFBACD547BC366B /* NSFileManager+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A5DA78969AB5F2E531D27A43677F2CE2 /* UIBarButtonItem+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EA5027B49FD446845D6E317B5BA626 /* UIBarButtonItem+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A83B387E748BC07FA378800A06C782A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBADB19E92A2585CA80E64770AF895AB /* Foundation.framework */; };
+		B0724D36E9F0A4BC6AC7073005AAFE4D /* NSData+NSHash.h in Headers */ = {isa = PBXBuildFile; fileRef = A6A4D8209BC86BB91AB4899464BE9274 /* NSData+NSHash.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B4D688C261858635E01C7A91A070C016 /* WSRouter-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C49EFD2AB2585331F2AEC6BA03BCD75 /* WSRouter-dummy.m */; };
+		B738A0E43BD344B9A2D9A28326755B93 /* NSString+WSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 253BDB522A61C1E4E11F3F70533A7210 /* NSString+WSRouter.m */; };
+		B7C3BE9A0499797AF2C78B45F3EBE537 /* WSBox.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D96AFC80C5E1822B5A7A819E0C59CAC /* WSBox.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4469901E23510A6FE0BE14FDE28BC0A /* WSMoneyConversion.h in Headers */ = {isa = PBXBuildFile; fileRef = D339CE6240CDD6B1E5394822932190A4 /* WSMoneyConversion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C488C1AABDD3CB21F2633E2F03CFAA59 /* Pods-WSRouter_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 766F3F579A300303E5A2EEDCB5BB272A /* Pods-WSRouter_Example-dummy.m */; };
+		C60A4C3A22E6940BC3022417BBD046AD /* UIViewController+WSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E717659A592DE2683F4A28CBE8F1195 /* UIViewController+WSRouter.m */; };
+		CA859D8F0602F6C40C1E0398ECD9F049 /* NSArray+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 031B55F112A9AA2F6763C4D2846F416A /* NSArray+WSExtension.m */; };
+		CB38893B530D9681B0261B89B2CA2195 /* WSRouterHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BCCAC42EC5F6BAD291E78D9B221B97 /* WSRouterHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D031038D2258F802008DBDFE /* UIViewController+WSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E717659A592DE2683F4A28CBE8F1195 /* UIViewController+WSRouter.m */; };
+		D031038E2258F807008DBDFE /* NSString+WSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 253BDB522A61C1E4E11F3F70533A7210 /* NSString+WSRouter.m */; };
+		D031038F2258F80C008DBDFE /* WSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6CAF892BAFB20594C360DBD00BB75 /* WSRouter.m */; };
+		D03103902258F842008DBDFE /* WSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = C292B71C2960296BC1EC35E3C3EA7597 /* WSSwizzle.m */; };
+		D03103912258F86A008DBDFE /* WSSwizzle.m in Sources */ = {isa = PBXBuildFile; fileRef = C292B71C2960296BC1EC35E3C3EA7597 /* WSSwizzle.m */; };
+		D03103922258F8B3008DBDFE /* NSString+WSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 253BDB522A61C1E4E11F3F70533A7210 /* NSString+WSRouter.m */; };
+		D03103932258F8B8008DBDFE /* WSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6CAF892BAFB20594C360DBD00BB75 /* WSRouter.m */; };
+		D0310395225911E6008DBDFE /* WSRouterHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BCCAC42EC5F6BAD291E78D9B221B97 /* WSRouterHandler.h */; };
+		D0310396225911E8008DBDFE /* WSRouterHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 60BCCAC42EC5F6BAD291E78D9B221B97 /* WSRouterHandler.h */; };
+		D0310397225911F1008DBDFE /* WSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = FC846AD4D68F6A1073E636643146C7D5 /* WSSwizzle.h */; };
+		D0310398225911F2008DBDFE /* WSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = FC846AD4D68F6A1073E636643146C7D5 /* WSSwizzle.h */; };
+		D0B90C569DF01D5363B62EE5B2A2CF16 /* WSRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = 8FF6CAF892BAFB20594C360DBD00BB75 /* WSRouter.m */; };
+		D29F420844318C726F720B7E2029DFF4 /* NSFileManager+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 391961B58917BC0E3F4A16A3DE63FAA8 /* NSFileManager+WSExtension.m */; };
+		D2F2A103D55280ED1880837992785395 /* Pods-WSRouter_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6DC14B50A71A279618CC1F573DB57646 /* Pods-WSRouter_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D55887B2D2F365B3E1840D7D81ED938E /* NSString+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 3264E28214765464691A410BF989AB14 /* NSString+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D7372F5110DE39DBE12914047142C843 /* NSMutableArray+WSExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 75A663EB455EC54FBB48700EB535A9EA /* NSMutableArray+WSExtension.m */; };
+		D8AA87A1856F43F9C8A1007F4DE7B251 /* WSCollectionCellHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DC6E4FF5C7F831E5CCBEF7099EED453 /* WSCollectionCellHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D9ED6B1BFD549CE835B970F32056C814 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBADB19E92A2585CA80E64770AF895AB /* Foundation.framework */; };
+		DB8E19468F410F783FA828739D6F59C7 /* NSData+NSHash.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F40EFA65E71F1359E7D118D8DA3006 /* NSData+NSHash.m */; };
+		E44C3B16DA874F276CCD71F37C8A9FFF /* WSScreenHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D36B75E1E4AFA168BF5C3BFDC04BBB6C /* WSScreenHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5FE5F4C9C94BDD0CA274F271888A576 /* UIView+WSFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 040516C47A14441A32DCB7C48D058B88 /* UIView+WSFrame.m */; };
+		E99C8CB1B9AF0AF9822F897AE5B3CB46 /* UIView+WSFrame.h in Headers */ = {isa = PBXBuildFile; fileRef = CBF3EE523A5A833FDC416E8186A5D11D /* UIView+WSFrame.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAAE0900EB15807E7121705468D183AF /* UIToolbar+WSExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 123B031FDE4B62CE5E58D74A0FA01684 /* UIToolbar+WSExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB07ABA1CA3C08D07F3B845F97D04087 /* WSUserDefaultsHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = FD671E544F2429509393718B61B93BE7 /* WSUserDefaultsHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EB68E65CB4E6D794FEEBC1E2ED2BBAED /* WSBox-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1DDAE654D3BD4E475BF582A2BA0BB95 /* WSBox-dummy.m */; };
+		F35B9FF742B5874FF3D864859A510749 /* WSSwizzle.h in Headers */ = {isa = PBXBuildFile; fileRef = FC846AD4D68F6A1073E636643146C7D5 /* WSSwizzle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FB1E39A4CC0CDAAD51196D6D81D02A19 /* WSTimeConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = 48B61C827CCFD05B8150159B16DF3B2E /* WSTimeConversion.m */; };
+		FEEE915881C931F3732447AB3EB19F31 /* WSBox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 070118ECD5DCF28A9025C65E1BD4A79F /* WSBox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		296C2E9E412B6E878EBA17F605BB4ADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AEC5F5FC8DD194BDDCA327CD9B5FFF4;
+			remoteInfo = WSBox;
+		};
+		806F6AF547FB571B6BB6B1C4234DF378 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0AEC5F5FC8DD194BDDCA327CD9B5FFF4;
+			remoteInfo = WSBox;
+		};
 		96C9A6A0752D7EB81B057139DF052E4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5571A59F91137E5BCD062E587CD610F2;
+			remoteGlobalIDString = 465D30FDF6E82FBDDC2E59114F0416AF;
 			remoteInfo = "Pods-WSRouter_Example";
 		};
-		E3A859731D23D5CAEC8A30E176205556 /* PBXContainerItemProxy */ = {
+		DCBFA6679AF10BDFCA922F1CDDCF2298 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 0C9EA035F66D37EA4C784164A84D572A;
+			remoteGlobalIDString = 4FB17B84737C546037686AB1DF3FEC24;
 			remoteInfo = WSRouter;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		031B55F112A9AA2F6763C4D2846F416A /* NSArray+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+WSExtension.m"; path = "WSBox/Classes/Category/NSArray+WSExtension.m"; sourceTree = "<group>"; };
+		040516C47A14441A32DCB7C48D058B88 /* UIView+WSFrame.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WSFrame.m"; path = "WSBox/Classes/Category/UIView+WSFrame.m"; sourceTree = "<group>"; };
 		040D999CCFFE72DC79DFAC401601F200 /* Pods-WSRouter_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSRouter_Example-Info.plist"; sourceTree = "<group>"; };
-		07747B15B773F4B736A4C6123714B565 /* WSRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSRouter.xcconfig; sourceTree = "<group>"; };
-		089FA6315428B8878AB3AEFBFEE00110 /* WSRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSRouter.h; path = WSRouter/Classes/WSRouter.h; sourceTree = "<group>"; };
+		070118ECD5DCF28A9025C65E1BD4A79F /* WSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		076A086CC4DA9DBF6770008987C44826 /* Pods_WSRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSRouter_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0CCA86C1250EFDD6BEFBACD547BC366B /* NSFileManager+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSFileManager+WSExtension.h"; path = "WSBox/Classes/Category/NSFileManager+WSExtension.h"; sourceTree = "<group>"; };
+		0ED168E779480214452EA2C904DDE001 /* WSMoneyConversion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSMoneyConversion.m; path = WSBox/Classes/Money/WSMoneyConversion.m; sourceTree = "<group>"; };
+		123B031FDE4B62CE5E58D74A0FA01684 /* UIToolbar+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIToolbar+WSExtension.h"; path = "WSBox/Classes/Category/UIToolbar+WSExtension.h"; sourceTree = "<group>"; };
 		17E876D4308EE8F6C3814425374644EE /* Pods-WSRouter_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSRouter_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		1D65F01B080543EFF88347CB34949086 /* WSRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSRouter.m; path = WSRouter/Classes/WSRouter.m; sourceTree = "<group>"; };
-		1FA41AD811CDF1D9586338D7DA978132 /* Pods_WSRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WSRouter_Tests.framework; path = "Pods-WSRouter_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		24860A7C15BB65FD11B9FF9E69C2FF1B /* WSRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSRouter-dummy.m"; sourceTree = "<group>"; };
+		1ADF13AA6A5D9ED115475DB1831F221B /* WSRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		253BDB522A61C1E4E11F3F70533A7210 /* NSString+WSRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+WSRouter.m"; path = "WSRouter/Classes/NSString+WSRouter.m"; sourceTree = "<group>"; };
+		29B6E5EEF5C6AE494A46B52E555F43C4 /* NSArray+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+WSExtension.h"; path = "WSBox/Classes/Category/NSArray+WSExtension.h"; sourceTree = "<group>"; };
+		2EEEB477E6235A70B9D799832A9C616D /* UITextView+WSPlaceholder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UITextView+WSPlaceholder.m"; path = "WSBox/Classes/Category/UITextView+WSPlaceholder.m"; sourceTree = "<group>"; };
+		3264E28214765464691A410BF989AB14 /* NSString+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+WSExtension.h"; path = "WSBox/Classes/Category/NSString+WSExtension.h"; sourceTree = "<group>"; };
+		38F40EFA65E71F1359E7D118D8DA3006 /* NSData+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+NSHash.m"; path = "WSBox/Classes/NSHash/NSData+NSHash.m"; sourceTree = "<group>"; };
+		391961B58917BC0E3F4A16A3DE63FAA8 /* NSFileManager+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSFileManager+WSExtension.m"; path = "WSBox/Classes/Category/NSFileManager+WSExtension.m"; sourceTree = "<group>"; };
+		455158456EB64B627DBB212F2A25132B /* WSBox.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WSBox.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F2F9F7A0634B2B7AB972E9C1E1986B /* NSMutableArray+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+WSExtension.h"; path = "WSBox/Classes/Category/NSMutableArray+WSExtension.h"; sourceTree = "<group>"; };
+		48B61C827CCFD05B8150159B16DF3B2E /* WSTimeConversion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSTimeConversion.m; path = WSBox/Classes/Date/WSTimeConversion.m; sourceTree = "<group>"; };
+		4DC6E4FF5C7F831E5CCBEF7099EED453 /* WSCollectionCellHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSCollectionCellHeader.h; path = WSBox/Classes/Macro/WSCollectionCellHeader.h; sourceTree = "<group>"; };
+		53945DDCB5B4982F113A65E03238F212 /* NSString+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+WSExtension.m"; path = "WSBox/Classes/Category/NSString+WSExtension.m"; sourceTree = "<group>"; };
+		55E9F9B502F611FDAE3A8F6BCEEF6EC6 /* WSRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSRouter.h; path = WSRouter/Classes/WSRouter.h; sourceTree = "<group>"; };
 		57B7AE4F9906E0EF95EB9F45BBDE0C4E /* Pods-WSRouter_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSRouter_Tests-dummy.m"; sourceTree = "<group>"; };
-		61E346A4D3740A2C8173BFC65CF7DC95 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		60BCCAC42EC5F6BAD291E78D9B221B97 /* WSRouterHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSRouterHandler.h; path = WSRouter/Classes/WSRouterHandler.h; sourceTree = "<group>"; };
 		629A984C8666C5355500658618E0A458 /* Pods-WSRouter_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSRouter_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		6D086A0666FC6C410B735B6F72097CD6 /* WSRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WSRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		64D1687DD4B42F5539ADE9E588137715 /* NSString+WSRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+WSRouter.h"; path = "WSRouter/Classes/NSString+WSRouter.h"; sourceTree = "<group>"; };
+		6ABA0E6B8EEFAE307157D00A50675F53 /* WSBox-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSBox-umbrella.h"; sourceTree = "<group>"; };
+		6C49EFD2AB2585331F2AEC6BA03BCD75 /* WSRouter-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSRouter-dummy.m"; sourceTree = "<group>"; };
+		6D96AFC80C5E1822B5A7A819E0C59CAC /* WSBox.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSBox.h; path = WSBox/Classes/WSBox.h; sourceTree = "<group>"; };
 		6DC14B50A71A279618CC1F573DB57646 /* Pods-WSRouter_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSRouter_Example-umbrella.h"; sourceTree = "<group>"; };
-		7371070E0AFCEB9B259BD2F5114A9AD6 /* WSRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WSRouter-Info.plist"; sourceTree = "<group>"; };
+		715BB1B07B7D5510DCDF48A08D84D9BD /* UIBarButtonItem+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBarButtonItem+WSExtension.m"; path = "WSBox/Classes/Category/UIBarButtonItem+WSExtension.m"; sourceTree = "<group>"; };
+		72EA5027B49FD446845D6E317B5BA626 /* UIBarButtonItem+WSExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBarButtonItem+WSExtension.h"; path = "WSBox/Classes/Category/UIBarButtonItem+WSExtension.h"; sourceTree = "<group>"; };
+		75A663EB455EC54FBB48700EB535A9EA /* NSMutableArray+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+WSExtension.m"; path = "WSBox/Classes/Category/NSMutableArray+WSExtension.m"; sourceTree = "<group>"; };
 		766F3F579A300303E5A2EEDCB5BB272A /* Pods-WSRouter_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WSRouter_Example-dummy.m"; sourceTree = "<group>"; };
+		7812C59B5603BB97C85418B39F7A1473 /* WSBox.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSBox.xcconfig; sourceTree = "<group>"; };
+		7ABA8421C310796A28D68FCB7A5FE3F5 /* WSRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSRouter-umbrella.h"; sourceTree = "<group>"; };
+		7DCB663A29ADE336EE4FD9DE8A4BDD6E /* WSRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSRouter-prefix.pch"; sourceTree = "<group>"; };
+		7E717659A592DE2683F4A28CBE8F1195 /* UIViewController+WSRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+WSRouter.m"; path = "WSRouter/Classes/UIViewController+WSRouter.m"; sourceTree = "<group>"; };
+		837A8C7497944EEFA00124389E515AF5 /* NSString+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+NSHash.h"; path = "WSBox/Classes/NSHash/NSString+NSHash.h"; sourceTree = "<group>"; };
+		8491E942A8765A3B0C45A7069327FF49 /* WSBox-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WSBox-Info.plist"; sourceTree = "<group>"; };
+		85E6BE9E899DF63642ECC1D7A99FED03 /* WSBox-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSBox-prefix.pch"; sourceTree = "<group>"; };
 		8A4787AC25DD28B0D24F853464E87970 /* Pods-WSRouter_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSRouter_Tests.modulemap"; sourceTree = "<group>"; };
-		97D98C02517C8CA5615EAF068F739439 /* WSRouter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WSRouter.framework; path = WSRouter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E245F58ECEA352015836DC630DC3E4A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		9EC0EE0E70A83C45C173337927B79527 /* NSString+WSRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+WSRouter.h"; path = "WSRouter/Classes/NSString+WSRouter.h"; sourceTree = "<group>"; };
+		8D0CE7C0CB51AB74C56689C5F4E016BB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8FF6CAF892BAFB20594C360DBD00BB75 /* WSRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSRouter.m; path = WSRouter/Classes/WSRouter.m; sourceTree = "<group>"; };
+		96982CE8FB5691BF3F193AA4EFFDDAAE /* UITextView+WSPlaceholder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UITextView+WSPlaceholder.h"; path = "WSBox/Classes/Category/UITextView+WSPlaceholder.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F1561B71D7E0FB9D483EE103AD2B71F /* WSBox.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSBox.modulemap; sourceTree = "<group>"; };
+		A1DDAE654D3BD4E475BF582A2BA0BB95 /* WSBox-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WSBox-dummy.m"; sourceTree = "<group>"; };
 		A35547F8BF1F85208B638BC9894091D6 /* Pods-WSRouter_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WSRouter_Example-frameworks.sh"; sourceTree = "<group>"; };
-		A599F81F57AC670A0C80F4C28FD44564 /* WSRouter-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSRouter-prefix.pch"; sourceTree = "<group>"; };
-		A8E5B8764537CFB22A7F667679120161 /* WSRouterHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSRouterHandler.h; path = WSRouter/Classes/WSRouterHandler.h; sourceTree = "<group>"; };
+		A6A4D8209BC86BB91AB4899464BE9274 /* NSData+NSHash.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+NSHash.h"; path = "WSBox/Classes/NSHash/NSData+NSHash.h"; sourceTree = "<group>"; };
+		A7352BF24A4050C7C5488E9AA28385B5 /* UIToolbar+WSExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIToolbar+WSExtension.m"; path = "WSBox/Classes/Category/UIToolbar+WSExtension.m"; sourceTree = "<group>"; };
+		AFA66863F57C1C5B1C22563208981BB2 /* NSString+NSHash.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+NSHash.m"; path = "WSBox/Classes/NSHash/NSString+NSHash.m"; sourceTree = "<group>"; };
+		AFB4371CD81E4B61860E02C020234399 /* Pods_WSRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7517348C43D6213ABC51D5EDE5A70E0 /* WSRouter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = WSRouter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BE4A15273D3010E4CD10C9AC592A6D96 /* UIViewController+WSRouter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+WSRouter.h"; path = "WSRouter/Classes/UIViewController+WSRouter.h"; sourceTree = "<group>"; };
 		C0D01514802779F02AEC9BE7C0720298 /* Pods-WSRouter_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSRouter_Tests-Info.plist"; sourceTree = "<group>"; };
+		C2862C067FBFF9BB01A5855010EB0C6A /* WSRouter-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WSRouter-Info.plist"; sourceTree = "<group>"; };
+		C292B71C2960296BC1EC35E3C3EA7597 /* WSSwizzle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WSSwizzle.m; path = WSBox/Classes/Swizzle/WSSwizzle.m; sourceTree = "<group>"; };
 		C3A150083D7CD660372D9A6CA8BD7CC1 /* Pods-WSRouter_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSRouter_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		C535A79643EA348FAD1944CFFA0494F0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		CB29D22D55E3DE2B6A4179D140BA59A0 /* WSTimeConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSTimeConversion.h; path = WSBox/Classes/Date/WSTimeConversion.h; sourceTree = "<group>"; };
+		CBADB19E92A2585CA80E64770AF895AB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CBF3EE523A5A833FDC416E8186A5D11D /* UIView+WSFrame.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WSFrame.h"; path = "WSBox/Classes/Category/UIView+WSFrame.h"; sourceTree = "<group>"; };
 		CC7D923725A4296AED321AC15C6D9C16 /* Pods-WSRouter_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSRouter_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CD1E1B78A078F870923186EAE0A8936B /* Pods-WSRouter_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSRouter_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D03EDF9D34326DB8B848D561CB48AF44 /* Pods-WSRouter_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WSRouter_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		D5EFFF7CC3D983EE834D100D39C23CB4 /* NSString+WSRouter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+WSRouter.m"; path = "WSRouter/Classes/NSString+WSRouter.m"; sourceTree = "<group>"; };
-		E4892D6B96986F60D3DC2EC4CA692CDF /* WSRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSRouter.modulemap; sourceTree = "<group>"; };
+		D339CE6240CDD6B1E5394822932190A4 /* WSMoneyConversion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSMoneyConversion.h; path = WSBox/Classes/Money/WSMoneyConversion.h; sourceTree = "<group>"; };
+		D36B75E1E4AFA168BF5C3BFDC04BBB6C /* WSScreenHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSScreenHeader.h; path = WSBox/Classes/Macro/WSScreenHeader.h; sourceTree = "<group>"; };
+		D463C0673BD737C7D7404982CD8F07FA /* WSRouter.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WSRouter.modulemap; sourceTree = "<group>"; };
+		E167434EAF52E989A156CEF497B8C16E /* WSColorHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSColorHeader.h; path = WSBox/Classes/Macro/WSColorHeader.h; sourceTree = "<group>"; };
 		EA3811FCA11EF451829FD10919242766 /* Pods-WSRouter_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WSRouter_Tests-umbrella.h"; sourceTree = "<group>"; };
-		EDF39EB7A486344194A74431D7B2BD69 /* Pods_WSRouter_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WSRouter_Example.framework; path = "Pods-WSRouter_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EFC1FDDF121CA837246C87743C108F72 /* Pods-WSRouter_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WSRouter_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		F01DB69187250F0BDB5DBF1FCAE888C7 /* Pods-WSRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WSRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		FA3ACD16FBED93967EC446E30D1D4358 /* WSRouter.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WSRouter.xcconfig; sourceTree = "<group>"; };
+		FC846AD4D68F6A1073E636643146C7D5 /* WSSwizzle.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSSwizzle.h; path = WSBox/Classes/Swizzle/WSSwizzle.h; sourceTree = "<group>"; };
 		FCCAF588EB6E9B02709966F61B93271B /* Pods-WSRouter_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WSRouter_Example.modulemap"; sourceTree = "<group>"; };
-		FE89E39EF6E21D66555F987EFBF44C04 /* WSRouter-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WSRouter-umbrella.h"; sourceTree = "<group>"; };
+		FD671E544F2429509393718B61B93BE7 /* WSUserDefaultsHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WSUserDefaultsHeader.h; path = WSBox/Classes/Macro/WSUserDefaultsHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		6D82104AA8796C591AFD4654B49D59F2 /* Frameworks */ = {
+		3AAC2B17DFC73659B2DD2585FDD51658 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3802955DFAF7197FE9D10AD3C7E8867B /* Foundation.framework in Frameworks */,
+				7C8201EE31B8356073E6EA10C2870B1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5A3E6119EE3EE05F11BE3030FFEF6369 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A83B387E748BC07FA378800A06C782A3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,37 +207,51 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DED34AA260721AD8C8DB54FA78C9F53D /* Frameworks */ = {
+		BE23C3D3F95D48DA8471D46D10C43183 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31526135A67101E401A276B9B2A7CECE /* Foundation.framework in Frameworks */,
+				0ABAF835534A23CA3E0E1FC3F8DCA32E /* Foundation.framework in Frameworks */,
+				FEEE915881C931F3732447AB3EB19F31 /* WSBox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0EEB751CC32158E99766D38E7E665D7C /* Support Files */ = {
+		1A58991F5DCF9704E42140F01FA38D0C /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				E4892D6B96986F60D3DC2EC4CA692CDF /* WSRouter.modulemap */,
-				07747B15B773F4B736A4C6123714B565 /* WSRouter.xcconfig */,
-				24860A7C15BB65FD11B9FF9E69C2FF1B /* WSRouter-dummy.m */,
-				7371070E0AFCEB9B259BD2F5114A9AD6 /* WSRouter-Info.plist */,
-				A599F81F57AC670A0C80F4C28FD44564 /* WSRouter-prefix.pch */,
-				FE89E39EF6E21D66555F987EFBF44C04 /* WSRouter-umbrella.h */,
+				C535A79643EA348FAD1944CFFA0494F0 /* LICENSE */,
+				8D0CE7C0CB51AB74C56689C5F4E016BB /* README.md */,
+				B7517348C43D6213ABC51D5EDE5A70E0 /* WSRouter.podspec */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/WSRouter";
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		15DB97E4DA417BB2AC84D5A317024AFA /* Development Pods */ = {
+		44DE87ED6623AA2A7734BC10935678F1 /* WSRouter */ = {
 			isa = PBXGroup;
 			children = (
-				786CDF8F9BF41711BD01E31734D1CF66 /* WSRouter */,
+				64D1687DD4B42F5539ADE9E588137715 /* NSString+WSRouter.h */,
+				253BDB522A61C1E4E11F3F70533A7210 /* NSString+WSRouter.m */,
+				BE4A15273D3010E4CD10C9AC592A6D96 /* UIViewController+WSRouter.h */,
+				7E717659A592DE2683F4A28CBE8F1195 /* UIViewController+WSRouter.m */,
+				55E9F9B502F611FDAE3A8F6BCEEF6EC6 /* WSRouter.h */,
+				8FF6CAF892BAFB20594C360DBD00BB75 /* WSRouter.m */,
+				60BCCAC42EC5F6BAD291E78D9B221B97 /* WSRouterHandler.h */,
+				1A58991F5DCF9704E42140F01FA38D0C /* Pod */,
+				7DC279D35862CCB3821A76209ACA40CF /* Support Files */,
 			);
-			name = "Development Pods";
+			name = WSRouter;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		48C6972FA8C81DAEC8F5C11EAA069DE6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8596073878D2AC1E1BDA0C73E27BEEB5 /* WSBox */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		69CA7E45FBA9579A09B632C2E28E4D45 /* Pods-WSRouter_Example */ = {
@@ -146,21 +271,6 @@
 			path = "Target Support Files/Pods-WSRouter_Example";
 			sourceTree = "<group>";
 		};
-		786CDF8F9BF41711BD01E31734D1CF66 /* WSRouter */ = {
-			isa = PBXGroup;
-			children = (
-				9EC0EE0E70A83C45C173337927B79527 /* NSString+WSRouter.h */,
-				D5EFFF7CC3D983EE834D100D39C23CB4 /* NSString+WSRouter.m */,
-				089FA6315428B8878AB3AEFBFEE00110 /* WSRouter.h */,
-				1D65F01B080543EFF88347CB34949086 /* WSRouter.m */,
-				A8E5B8764537CFB22A7F667679120161 /* WSRouterHandler.h */,
-				E4BA7188F1D4A1D00935DF7FA403ED68 /* Pod */,
-				0EEB751CC32158E99766D38E7E665D7C /* Support Files */,
-			);
-			name = WSRouter;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		7DA04BF22091EB525B303FED1269AA91 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,12 +280,57 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		9B055D0CFEA43187E72B03DED11F5662 /* iOS */ = {
+		7DC279D35862CCB3821A76209ACA40CF /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */,
+				D463C0673BD737C7D7404982CD8F07FA /* WSRouter.modulemap */,
+				FA3ACD16FBED93967EC446E30D1D4358 /* WSRouter.xcconfig */,
+				6C49EFD2AB2585331F2AEC6BA03BCD75 /* WSRouter-dummy.m */,
+				C2862C067FBFF9BB01A5855010EB0C6A /* WSRouter-Info.plist */,
+				7DCB663A29ADE336EE4FD9DE8A4BDD6E /* WSRouter-prefix.pch */,
+				7ABA8421C310796A28D68FCB7A5FE3F5 /* WSRouter-umbrella.h */,
 			);
-			name = iOS;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WSRouter";
+			sourceTree = "<group>";
+		};
+		8596073878D2AC1E1BDA0C73E27BEEB5 /* WSBox */ = {
+			isa = PBXGroup;
+			children = (
+				29B6E5EEF5C6AE494A46B52E555F43C4 /* NSArray+WSExtension.h */,
+				031B55F112A9AA2F6763C4D2846F416A /* NSArray+WSExtension.m */,
+				A6A4D8209BC86BB91AB4899464BE9274 /* NSData+NSHash.h */,
+				38F40EFA65E71F1359E7D118D8DA3006 /* NSData+NSHash.m */,
+				0CCA86C1250EFDD6BEFBACD547BC366B /* NSFileManager+WSExtension.h */,
+				391961B58917BC0E3F4A16A3DE63FAA8 /* NSFileManager+WSExtension.m */,
+				46F2F9F7A0634B2B7AB972E9C1E1986B /* NSMutableArray+WSExtension.h */,
+				75A663EB455EC54FBB48700EB535A9EA /* NSMutableArray+WSExtension.m */,
+				837A8C7497944EEFA00124389E515AF5 /* NSString+NSHash.h */,
+				AFA66863F57C1C5B1C22563208981BB2 /* NSString+NSHash.m */,
+				3264E28214765464691A410BF989AB14 /* NSString+WSExtension.h */,
+				53945DDCB5B4982F113A65E03238F212 /* NSString+WSExtension.m */,
+				72EA5027B49FD446845D6E317B5BA626 /* UIBarButtonItem+WSExtension.h */,
+				715BB1B07B7D5510DCDF48A08D84D9BD /* UIBarButtonItem+WSExtension.m */,
+				96982CE8FB5691BF3F193AA4EFFDDAAE /* UITextView+WSPlaceholder.h */,
+				2EEEB477E6235A70B9D799832A9C616D /* UITextView+WSPlaceholder.m */,
+				123B031FDE4B62CE5E58D74A0FA01684 /* UIToolbar+WSExtension.h */,
+				A7352BF24A4050C7C5488E9AA28385B5 /* UIToolbar+WSExtension.m */,
+				CBF3EE523A5A833FDC416E8186A5D11D /* UIView+WSFrame.h */,
+				040516C47A14441A32DCB7C48D058B88 /* UIView+WSFrame.m */,
+				6D96AFC80C5E1822B5A7A819E0C59CAC /* WSBox.h */,
+				4DC6E4FF5C7F831E5CCBEF7099EED453 /* WSCollectionCellHeader.h */,
+				E167434EAF52E989A156CEF497B8C16E /* WSColorHeader.h */,
+				D339CE6240CDD6B1E5394822932190A4 /* WSMoneyConversion.h */,
+				0ED168E779480214452EA2C904DDE001 /* WSMoneyConversion.m */,
+				D36B75E1E4AFA168BF5C3BFDC04BBB6C /* WSScreenHeader.h */,
+				FC846AD4D68F6A1073E636643146C7D5 /* WSSwizzle.h */,
+				C292B71C2960296BC1EC35E3C3EA7597 /* WSSwizzle.m */,
+				CB29D22D55E3DE2B6A4179D140BA59A0 /* WSTimeConversion.h */,
+				48B61C827CCFD05B8150159B16DF3B2E /* WSTimeConversion.m */,
+				FD671E544F2429509393718B61B93BE7 /* WSUserDefaultsHeader.h */,
+				D276FCE2EAB16FEF30D57948B3F185FB /* Support Files */,
+			);
+			path = WSBox;
 			sourceTree = "<group>";
 		};
 		9BF5BE2EAC5FE417709D527B5E321AFC /* Pods-WSRouter_Tests */ = {
@@ -194,48 +349,98 @@
 			path = "Target Support Files/Pods-WSRouter_Tests";
 			sourceTree = "<group>";
 		};
-		BC194907CFF96F68C20DF673ECEEEF5B /* Products */ = {
+		A5F7D33FE7A23919EF6E3D875077177B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EDF39EB7A486344194A74431D7B2BD69 /* Pods_WSRouter_Example.framework */,
-				1FA41AD811CDF1D9586338D7DA978132 /* Pods_WSRouter_Tests.framework */,
-				97D98C02517C8CA5615EAF068F739439 /* WSRouter.framework */,
+				070118ECD5DCF28A9025C65E1BD4A79F /* WSBox.framework */,
+				C0D6AD0125012BB09DCC8607AE1E8B43 /* iOS */,
 			);
-			name = Products;
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0D6AD0125012BB09DCC8607AE1E8B43 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBADB19E92A2585CA80E64770AF895AB /* Foundation.framework */,
+			);
+			name = iOS;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				15DB97E4DA417BB2AC84D5A317024AFA /* Development Pods */,
-				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				BC194907CFF96F68C20DF673ECEEEF5B /* Products */,
+				DD6D87CD18A5FF63D70D03B1C2A1FB2E /* Development Pods */,
+				A5F7D33FE7A23919EF6E3D875077177B /* Frameworks */,
+				48C6972FA8C81DAEC8F5C11EAA069DE6 /* Pods */,
+				E76B54B41D0E64D49D606B1AA4B362FE /* Products */,
 				7DA04BF22091EB525B303FED1269AA91 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+		D276FCE2EAB16FEF30D57948B3F185FB /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				9B055D0CFEA43187E72B03DED11F5662 /* iOS */,
+				9F1561B71D7E0FB9D483EE103AD2B71F /* WSBox.modulemap */,
+				7812C59B5603BB97C85418B39F7A1473 /* WSBox.xcconfig */,
+				A1DDAE654D3BD4E475BF582A2BA0BB95 /* WSBox-dummy.m */,
+				8491E942A8765A3B0C45A7069327FF49 /* WSBox-Info.plist */,
+				85E6BE9E899DF63642ECC1D7A99FED03 /* WSBox-prefix.pch */,
+				6ABA0E6B8EEFAE307157D00A50675F53 /* WSBox-umbrella.h */,
 			);
-			name = Frameworks;
+			name = "Support Files";
+			path = "../Target Support Files/WSBox";
 			sourceTree = "<group>";
 		};
-		E4BA7188F1D4A1D00935DF7FA403ED68 /* Pod */ = {
+		DD6D87CD18A5FF63D70D03B1C2A1FB2E /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9E245F58ECEA352015836DC630DC3E4A /* LICENSE */,
-				61E346A4D3740A2C8173BFC65CF7DC95 /* README.md */,
-				6D086A0666FC6C410B735B6F72097CD6 /* WSRouter.podspec */,
+				44DE87ED6623AA2A7734BC10935678F1 /* WSRouter */,
 			);
-			name = Pod;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		E76B54B41D0E64D49D606B1AA4B362FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				076A086CC4DA9DBF6770008987C44826 /* Pods_WSRouter_Example.framework */,
+				AFB4371CD81E4B61860E02C020234399 /* Pods_WSRouter_Tests.framework */,
+				455158456EB64B627DBB212F2A25132B /* WSBox.framework */,
+				1ADF13AA6A5D9ED115475DB1831F221B /* WSRouter.framework */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		594C1A2F907F92EC3AD8D9152396C6F2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E72BF5F9E6CBB64756CBE385DA85C56 /* NSArray+WSExtension.h in Headers */,
+				B0724D36E9F0A4BC6AC7073005AAFE4D /* NSData+NSHash.h in Headers */,
+				A57C1CAD53FB4B04C10839701057FCE8 /* NSFileManager+WSExtension.h in Headers */,
+				158CAD413EE305E466FFE3F9E3C2DEF0 /* NSMutableArray+WSExtension.h in Headers */,
+				6E46F0489F77BAD33176AB39591339B8 /* NSString+NSHash.h in Headers */,
+				D55887B2D2F365B3E1840D7D81ED938E /* NSString+WSExtension.h in Headers */,
+				A5DA78969AB5F2E531D27A43677F2CE2 /* UIBarButtonItem+WSExtension.h in Headers */,
+				73B15F974E14CF684269B25D6EFBB92E /* UITextView+WSPlaceholder.h in Headers */,
+				EAAE0900EB15807E7121705468D183AF /* UIToolbar+WSExtension.h in Headers */,
+				E99C8CB1B9AF0AF9822F897AE5B3CB46 /* UIView+WSFrame.h in Headers */,
+				123F08275D4C7E65A0DA17C3B6CB8DCA /* WSBox-umbrella.h in Headers */,
+				B7C3BE9A0499797AF2C78B45F3EBE537 /* WSBox.h in Headers */,
+				D8AA87A1856F43F9C8A1007F4DE7B251 /* WSCollectionCellHeader.h in Headers */,
+				46E02384EF8CE875E928DB5501708F69 /* WSColorHeader.h in Headers */,
+				C4469901E23510A6FE0BE14FDE28BC0A /* WSMoneyConversion.h in Headers */,
+				E44C3B16DA874F276CCD71F37C8A9FFF /* WSScreenHeader.h in Headers */,
+				D0310395225911E6008DBDFE /* WSRouterHandler.h in Headers */,
+				F35B9FF742B5874FF3D864859A510749 /* WSSwizzle.h in Headers */,
+				6EDE21D9532F5AD58713637A821537F9 /* WSTimeConversion.h in Headers */,
+				EB07ABA1CA3C08D07F3B845F97D04087 /* WSUserDefaultsHeader.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8B9A5DBE6CE79AAA412A3A4226CC8F9C /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -244,63 +449,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA2E3DE47816EB0A1200430991D80DC9 /* Headers */ = {
+		A7017F153A36C93B67A10636D2E2A7FF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CA68D69364308F0DE247D27808911D9 /* Pods-WSRouter_Example-umbrella.h in Headers */,
+				64D495D87260DC9A51B7B96F5AEB86A3 /* NSString+WSRouter.h in Headers */,
+				D0310398225911F2008DBDFE /* WSSwizzle.h in Headers */,
+				3312C23622EBD135F3CCAB705FAE4295 /* UIViewController+WSRouter.h in Headers */,
+				7AAA3466CEB778276E3E4C3A9FEC6BEE /* WSRouter-umbrella.h in Headers */,
+				1DB8076CDCBEF48D18449DC098472EDE /* WSRouter.h in Headers */,
+				CB38893B530D9681B0261B89B2CA2195 /* WSRouterHandler.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C7DE66346567BE354EEEAB1ABE2F093E /* Headers */ = {
+		B07F32B18DC7B742FDA5D274AC7419F4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE3CD73495758E338DEE8344B0BB94AD /* NSString+WSRouter.h in Headers */,
-				920905C9C00FEE0DFFA84E4F58A9946C /* WSRouter-umbrella.h in Headers */,
-				81FD3254166E95D4CD3D92089EEE60D8 /* WSRouter.h in Headers */,
-				596C73D9F12F985A1F7961ED6334C964 /* WSRouterHandler.h in Headers */,
+				D0310396225911E8008DBDFE /* WSRouterHandler.h in Headers */,
+				D0310397225911F1008DBDFE /* WSSwizzle.h in Headers */,
+				D2F2A103D55280ED1880837992785395 /* Pods-WSRouter_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0C9EA035F66D37EA4C784164A84D572A /* WSRouter */ = {
+		0AEC5F5FC8DD194BDDCA327CD9B5FFF4 /* WSBox */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1998B1FD2C024DEC97B3F147168A2D4B /* Build configuration list for PBXNativeTarget "WSRouter" */;
+			buildConfigurationList = 42F56C9942B831ED7D6B18FA19A2000A /* Build configuration list for PBXNativeTarget "WSBox" */;
 			buildPhases = (
-				C7DE66346567BE354EEEAB1ABE2F093E /* Headers */,
-				34FF3334BD448CECC4F1A156210A2B5D /* Sources */,
-				6D82104AA8796C591AFD4654B49D59F2 /* Frameworks */,
-				21B67EB4D4C029B371D9B4E9A1EFF1D8 /* Resources */,
+				594C1A2F907F92EC3AD8D9152396C6F2 /* Headers */,
+				7528478D2F9C671A1720706A99B35968 /* Sources */,
+				5A3E6119EE3EE05F11BE3030FFEF6369 /* Frameworks */,
+				BC136B6FC91C4F12D8D31AF37E54DCB3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = WSRouter;
-			productName = WSRouter;
-			productReference = 97D98C02517C8CA5615EAF068F739439 /* WSRouter.framework */;
+			name = WSBox;
+			productName = WSBox;
+			productReference = 455158456EB64B627DBB212F2A25132B /* WSBox.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		5571A59F91137E5BCD062E587CD610F2 /* Pods-WSRouter_Example */ = {
+		465D30FDF6E82FBDDC2E59114F0416AF /* Pods-WSRouter_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DBF446B0FCC3ACB50D168D85DC20DAB8 /* Build configuration list for PBXNativeTarget "Pods-WSRouter_Example" */;
+			buildConfigurationList = E4F05F59BCF558A8971467090E0546DC /* Build configuration list for PBXNativeTarget "Pods-WSRouter_Example" */;
 			buildPhases = (
-				BA2E3DE47816EB0A1200430991D80DC9 /* Headers */,
-				2FFD47E2EC2A8E96D9143603289BC532 /* Sources */,
-				DED34AA260721AD8C8DB54FA78C9F53D /* Frameworks */,
-				2F8F1EE935C2DF6A2CBEA25D1CD7884B /* Resources */,
+				B07F32B18DC7B742FDA5D274AC7419F4 /* Headers */,
+				0F466B204542D7A09D650C920AC23056 /* Sources */,
+				3AAC2B17DFC73659B2DD2585FDD51658 /* Frameworks */,
+				ACB553E78214C76D0E91773507BCF7EC /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				DD22D1B764EC90238C1D31EBF65C0270 /* PBXTargetDependency */,
+				20740FED53AC47DC517A810A30CAD0EE /* PBXTargetDependency */,
+				494D9CE6D21402804D19AEDF986E2E03 /* PBXTargetDependency */,
 			);
 			name = "Pods-WSRouter_Example";
 			productName = "Pods-WSRouter_Example";
-			productReference = EDF39EB7A486344194A74431D7B2BD69 /* Pods_WSRouter_Example.framework */;
+			productReference = 076A086CC4DA9DBF6770008987C44826 /* Pods_WSRouter_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4FB17B84737C546037686AB1DF3FEC24 /* WSRouter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E23FE3739291C2056476885DFB760C3 /* Build configuration list for PBXNativeTarget "WSRouter" */;
+			buildPhases = (
+				A7017F153A36C93B67A10636D2E2A7FF /* Headers */,
+				ADBF48060BBAFB918A86035156808099 /* Sources */,
+				BE23C3D3F95D48DA8471D46D10C43183 /* Frameworks */,
+				03330CEE4F4AA070272FFACEEFC79EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				558804BBD17543EEF55B260CD03CAD96 /* PBXTargetDependency */,
+			);
+			name = WSRouter;
+			productName = WSRouter;
+			productReference = 1ADF13AA6A5D9ED115475DB1831F221B /* WSRouter.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		80D6337ECFAF48B57537B0989A05CEF2 /* Pods-WSRouter_Tests */ = {
@@ -319,7 +548,7 @@
 			);
 			name = "Pods-WSRouter_Tests";
 			productName = "Pods-WSRouter_Tests";
-			productReference = 1FA41AD811CDF1D9586338D7DA978132 /* Pods_WSRouter_Tests.framework */;
+			productReference = AFB4371CD81E4B61860E02C020234399 /* Pods_WSRouter_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -336,29 +565,38 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = BC194907CFF96F68C20DF673ECEEEF5B /* Products */;
+			productRefGroup = E76B54B41D0E64D49D606B1AA4B362FE /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5571A59F91137E5BCD062E587CD610F2 /* Pods-WSRouter_Example */,
+				465D30FDF6E82FBDDC2E59114F0416AF /* Pods-WSRouter_Example */,
 				80D6337ECFAF48B57537B0989A05CEF2 /* Pods-WSRouter_Tests */,
-				0C9EA035F66D37EA4C784164A84D572A /* WSRouter */,
+				0AEC5F5FC8DD194BDDCA327CD9B5FFF4 /* WSBox */,
+				4FB17B84737C546037686AB1DF3FEC24 /* WSRouter */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		21B67EB4D4C029B371D9B4E9A1EFF1D8 /* Resources */ = {
+		03330CEE4F4AA070272FFACEEFC79EFE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F8F1EE935C2DF6A2CBEA25D1CD7884B /* Resources */ = {
+		ACB553E78214C76D0E91773507BCF7EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC136B6FC91C4F12D8D31AF37E54DCB3 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -375,21 +613,38 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2FFD47E2EC2A8E96D9143603289BC532 /* Sources */ = {
+		0F466B204542D7A09D650C920AC23056 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9FB67C9D5459E707707DB3F0A9842782 /* Pods-WSRouter_Example-dummy.m in Sources */,
+				D03103902258F842008DBDFE /* WSSwizzle.m in Sources */,
+				D031038F2258F80C008DBDFE /* WSRouter.m in Sources */,
+				D031038E2258F807008DBDFE /* NSString+WSRouter.m in Sources */,
+				C488C1AABDD3CB21F2633E2F03CFAA59 /* Pods-WSRouter_Example-dummy.m in Sources */,
+				D031038D2258F802008DBDFE /* UIViewController+WSRouter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		34FF3334BD448CECC4F1A156210A2B5D /* Sources */ = {
+		7528478D2F9C671A1720706A99B35968 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E2F7EB2EA3DF682605D283F4E96D23D2 /* NSString+WSRouter.m in Sources */,
-				53DA12D216D9DAB36B3AB20318B336FB /* WSRouter-dummy.m in Sources */,
-				7D6DABFF07647B365A0953BC087E6364 /* WSRouter.m in Sources */,
+				D03103932258F8B8008DBDFE /* WSRouter.m in Sources */,
+				CA859D8F0602F6C40C1E0398ECD9F049 /* NSArray+WSExtension.m in Sources */,
+				DB8E19468F410F783FA828739D6F59C7 /* NSData+NSHash.m in Sources */,
+				D29F420844318C726F720B7E2029DFF4 /* NSFileManager+WSExtension.m in Sources */,
+				D7372F5110DE39DBE12914047142C843 /* NSMutableArray+WSExtension.m in Sources */,
+				019242F0EAE070B34B78932F3C4742D8 /* NSString+NSHash.m in Sources */,
+				0E4436EAA65AD09D7060AC94DE39696B /* NSString+WSExtension.m in Sources */,
+				47BA41C8DA549287E98B1E93E39F9E89 /* UIBarButtonItem+WSExtension.m in Sources */,
+				3D51AB3C18D12B7DDE85EAC46D519159 /* UITextView+WSPlaceholder.m in Sources */,
+				79B07415F71D2E76389905372BF6B2F3 /* UIToolbar+WSExtension.m in Sources */,
+				D03103922258F8B3008DBDFE /* NSString+WSRouter.m in Sources */,
+				E5FE5F4C9C94BDD0CA274F271888A576 /* UIView+WSFrame.m in Sources */,
+				EB68E65CB4E6D794FEEBC1E2ED2BBAED /* WSBox-dummy.m in Sources */,
+				22DDE567E7D5ADD869B621BB70D0A1C5 /* WSMoneyConversion.m in Sources */,
+				0FDB130DF5D5B6E4644CB731FFEE7579 /* WSSwizzle.m in Sources */,
+				FB1E39A4CC0CDAAD51196D6D81D02A19 /* WSTimeConversion.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,20 +656,44 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		ADBF48060BBAFB918A86035156808099 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D03103912258F86A008DBDFE /* WSSwizzle.m in Sources */,
+				B738A0E43BD344B9A2D9A28326755B93 /* NSString+WSRouter.m in Sources */,
+				C60A4C3A22E6940BC3022417BBD046AD /* UIViewController+WSRouter.m in Sources */,
+				B4D688C261858635E01C7A91A070C016 /* WSRouter-dummy.m in Sources */,
+				D0B90C569DF01D5363B62EE5B2A2CF16 /* WSRouter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		20740FED53AC47DC517A810A30CAD0EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WSBox;
+			target = 0AEC5F5FC8DD194BDDCA327CD9B5FFF4 /* WSBox */;
+			targetProxy = 806F6AF547FB571B6BB6B1C4234DF378 /* PBXContainerItemProxy */;
+		};
+		494D9CE6D21402804D19AEDF986E2E03 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WSRouter;
+			target = 4FB17B84737C546037686AB1DF3FEC24 /* WSRouter */;
+			targetProxy = DCBFA6679AF10BDFCA922F1CDDCF2298 /* PBXContainerItemProxy */;
+		};
+		558804BBD17543EEF55B260CD03CAD96 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WSBox;
+			target = 0AEC5F5FC8DD194BDDCA327CD9B5FFF4 /* WSBox */;
+			targetProxy = 296C2E9E412B6E878EBA17F605BB4ADC /* PBXContainerItemProxy */;
+		};
 		7932A212650F445154F41DCABCC4DA0A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-WSRouter_Example";
-			target = 5571A59F91137E5BCD062E587CD610F2 /* Pods-WSRouter_Example */;
+			target = 465D30FDF6E82FBDDC2E59114F0416AF /* Pods-WSRouter_Example */;
 			targetProxy = 96C9A6A0752D7EB81B057139DF052E4B /* PBXContainerItemProxy */;
-		};
-		DD22D1B764EC90238C1D31EBF65C0270 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WSRouter;
-			target = 0C9EA035F66D37EA4C784164A84D572A /* WSRouter */;
-			targetProxy = E3A859731D23D5CAEC8A30E176205556 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -472,10 +751,40 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		0F88088AD24F85ACEEDBABB373CBD5A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7812C59B5603BB97C85418B39F7A1473 /* WSBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSBox/WSBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSBox/WSBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WSBox/WSBox.modulemap";
+				PRODUCT_MODULE_NAME = WSBox;
+				PRODUCT_NAME = WSBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -543,36 +852,6 @@
 			};
 			name = Debug;
 		};
-		43D27D5D9490BBCA9942F97A1B2395CD /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07747B15B773F4B736A4C6123714B565 /* WSRouter.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/WSRouter/WSRouter-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/WSRouter/WSRouter-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/WSRouter/WSRouter.modulemap";
-				PRODUCT_MODULE_NAME = WSRouter;
-				PRODUCT_NAME = WSRouter;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		5488711534A80697E6DAD7301E352D28 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F01DB69187250F0BDB5DBF1FCAE888C7 /* Pods-WSRouter_Tests.release.xcconfig */;
@@ -607,7 +886,7 @@
 			};
 			name = Release;
 		};
-		9158955DC56D8C07B2D20FC74C8FF686 /* Release */ = {
+		5D49478E099BC7C574B6EF9C28CCF5CC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C3A150083D7CD660372D9A6CA8BD7CC1 /* Pods-WSRouter_Example.release.xcconfig */;
 			buildSettings = {
@@ -641,9 +920,42 @@
 			};
 			name = Release;
 		};
-		93092CF63DC29943BB0078712CD53E45 /* Release */ = {
+		5F475F7DEB9550F073C2D1CF734B7647 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07747B15B773F4B736A4C6123714B565 /* WSRouter.xcconfig */;
+			baseConfigurationReference = 629A984C8666C5355500658618E0A458 /* Pods-WSRouter_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WSRouter_Example/Pods-WSRouter_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WSRouter_Example/Pods-WSRouter_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		631358540DE351D287017BF0DCC4F191 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3ACD16FBED93967EC446E30D1D4358 /* WSRouter.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -671,6 +983,66 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		9A2BF3849BB4ADD7917A765C3CAA49DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA3ACD16FBED93967EC446E30D1D4358 /* WSRouter.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSRouter/WSRouter-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSRouter/WSRouter-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WSRouter/WSRouter.modulemap";
+				PRODUCT_MODULE_NAME = WSRouter;
+				PRODUCT_NAME = WSRouter;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B4F2B89EDEF516AD9F0AE1D4662876EF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7812C59B5603BB97C85418B39F7A1473 /* WSBox.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WSBox/WSBox-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WSBox/WSBox-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WSBox/WSBox.modulemap";
+				PRODUCT_MODULE_NAME = WSBox;
+				PRODUCT_NAME = WSBox;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		D3EA6912BBDF2FE3FB4A4F608EB5B925 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -705,47 +1077,14 @@
 			};
 			name = Debug;
 		};
-		D73E21A7F60028413008EEC1920A3749 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 629A984C8666C5355500658618E0A458 /* Pods-WSRouter_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-WSRouter_Example/Pods-WSRouter_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-WSRouter_Example/Pods-WSRouter_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1998B1FD2C024DEC97B3F147168A2D4B /* Build configuration list for PBXNativeTarget "WSRouter" */ = {
+		42F56C9942B831ED7D6B18FA19A2000A /* Build configuration list for PBXNativeTarget "WSBox" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43D27D5D9490BBCA9942F97A1B2395CD /* Debug */,
-				93092CF63DC29943BB0078712CD53E45 /* Release */,
+				B4F2B89EDEF516AD9F0AE1D4662876EF /* Debug */,
+				0F88088AD24F85ACEEDBABB373CBD5A1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -768,11 +1107,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DBF446B0FCC3ACB50D168D85DC20DAB8 /* Build configuration list for PBXNativeTarget "Pods-WSRouter_Example" */ = {
+		7E23FE3739291C2056476885DFB760C3 /* Build configuration list for PBXNativeTarget "WSRouter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D73E21A7F60028413008EEC1920A3749 /* Debug */,
-				9158955DC56D8C07B2D20FC74C8FF686 /* Release */,
+				9A2BF3849BB4ADD7917A765C3CAA49DF /* Debug */,
+				631358540DE351D287017BF0DCC4F191 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E4F05F59BCF558A8971467090E0546DC /* Build configuration list for PBXNativeTarget "Pods-WSRouter_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F475F7DEB9550F073C2D1CF734B7647 /* Debug */,
+				5D49478E099BC7C574B6EF9C28CCF5CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

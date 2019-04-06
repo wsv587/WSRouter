@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'WSRouter'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'An url-based and light-weight router for iOS app.'
 
 # This description is used to generate tags and improve search results.
@@ -39,4 +39,5 @@ An url-based and light-weight router for iOS app...
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'WSBox', '0.4.8'
 end

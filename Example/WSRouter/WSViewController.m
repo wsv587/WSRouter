@@ -23,10 +23,8 @@
 
 @implementation WSViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
-
 }
 
 
@@ -37,20 +35,18 @@
 
 - (IBAction)push:(id)sender {
     [WSRouter transferFromViewController:self
-                                   toURL:[NSURL URLWithString:@"WS://www.ws.com/first?uid=666"]];
+                                   toURL:[NSURL URLWithString:@"ws://www.ws.com/first?uid=666?title=title"]];
 }
 
 - (IBAction)pushWithCallback:(id)sender {
     [WSRouter transferFromViewController:self
-                                   toURL:[NSURL URLWithString:@"WS://www.ws.com/first?uid=666"]
+                                   toURL:[NSURL URLWithString:@"ws://www.ws.com/first?uid=666"]
                viewWillDisappearCallBack:^(UIViewController *destViewController, id callbackData) {
                    NSLog(@"%@",callbackData);
-                   UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"" message:callbackData delegate:nil cancelButtonTitle:@"cancel" otherButtonTitles:nil, nil];
-                   [alert show];
                }];
 }
 
 - (IBAction)present:(id)sender {
-    [WSRouter transferFromViewController:self toURL:[NSURL URLWithString:@"WS://www.ws.com/second?uid=999"]];
+    [WSRouter transferFromViewController:self toURL:[NSURL URLWithString:@"ws://www.ws.com/second?uid=999"]];
 }
 @end

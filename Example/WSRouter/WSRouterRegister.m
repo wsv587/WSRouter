@@ -15,22 +15,12 @@
 
 @implementation WSRouterRegister
 + (void)load {
-    [self registerFirst];
-    [self registerSecond];
+    [self registerPush];
+    [self registerModal];
 }
 
-+ (void)registerFirst {
-    NSURL *url = [NSURL URLWithString:@"WS://www.ws.com/first?uid=999&bid=666"];
-    id query = url.query;               // uid=999&bid=666
-    id baseUrl = url.baseURL;
-    id scheme = url.scheme;             // WS
-    id port = url.port;
-    id host = url.host;                 // www.ws.com
-    id path = url.path;                 // /first
-    id fragemnt = url.fragment;
-    id absString = url.absoluteString;  // WS://www.ws.com/first?uid=999&bid=666
-    id absUrl = url.absoluteURL;        // WS://www.ws.com/first?uid=999&bid=666
-    
++ (void)registerPush {
+    NSURL *url = [NSURL URLWithString:@"ws://www.ws.com/first?uid=999&bid=666"];
     
     [WSRouter registerRouterWithPrefixURL:url handler:^UIViewController *(NSURL *URL, UIViewController *sourceViewController) {
         WSPushedViewController *destViewController = [[WSPushedViewController alloc] init];
@@ -43,9 +33,9 @@
     }];
 }
 
-+ (void)registerSecond {
++ (void)registerModal {
     
-    NSURL *url = [NSURL URLWithString:@"WS://www.ws.com/second"];
+    NSURL *url = [NSURL URLWithString:@"ws://www.ws.com/second"];
     [WSRouter registerRouterWithPrefixURL:url handler:^UIViewController *(NSURL *URL, UIViewController *sourceViewController) {
         UIViewController *destViewController = [[WSPresentedViewController alloc] init];
         [WSRouter transferViewController:destViewController
@@ -53,7 +43,15 @@
                               transition:WSTransitionPresent];
         return destViewController;
     }];
-
 }
+
+
+//NSURL *url = [NSURL URLWithString:@"ws://www.ws.com/first?uid=999&bid=666"];
+//id query = url.query;               // uid=999&bid=666
+//id scheme = url.scheme;             // WS
+//id host = url.host;                 // www.ws.com
+//id path = url.path;                 // /first
+//id absString = url.absoluteString;  // WS://www.ws.com/first?uid=999&bid=666
+//id absUrl = url.absoluteURL;        // WS://www.ws.com/first?uid=999&bid=666
 
 @end

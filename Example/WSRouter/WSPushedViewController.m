@@ -19,9 +19,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
 
-    self.view.backgroundColor = [UIColor redColor];
-    
     self.router_callbackData = @"callback_DATA";
+    [self setupUI];
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
@@ -32,6 +31,10 @@
 - (void)dealloc {
     
     NSLog(@"dealloc");
+}
+
+- (void)setupUI {
+    self.view.backgroundColor = [UIColor redColor];
 }
 
 @end

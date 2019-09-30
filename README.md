@@ -1,5 +1,8 @@
 # WSRouter
 
+## Introduction
+WSRouter is a lib that can help your iOS project to implement viewController transition easily. WSRouter is based custom URL, if your iOS project's transition is base URL, The WSRouter maybe is a good choice. In addition, WSRouter is light-weight which just contains three .m file and four .h file. so, WSRouter never affect your project size and compile speed.
+
 [![CI Status](https://img.shields.io/travis/nlgb/WSRouter.svg?style=flat)](https://travis-ci.org/nlgb/WSRouter)
 [![Version](https://img.shields.io/cocoapods/v/WSRouter.svg?style=flat)](https://cocoapods.org/pods/WSRouter)
 [![License](https://img.shields.io/cocoapods/l/WSRouter.svg?style=flat)](https://cocoapods.org/pods/WSRouter)
@@ -63,7 +66,8 @@ Transfer your viewController to next viewController by using `transferFromViewCo
 
 ```
 
-# 中文介绍
+## 中文介绍
+WSRouter是一款基于URL实现控制器转场的框架。如果您的iOS项目正在考虑使用URL实现页面的转场，那么我推荐您使用WSRouter。此外，WSRouter功能完整且非常轻。内部仅包含3个.m文件和4个.h文件，并不会影响您的项目大小或编译速度。
 
 ## 运行example
 clone代码到本地，然后再Example文件夹下运行命名`pod install`即可。

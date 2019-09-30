@@ -7,7 +7,7 @@
 
 #import "UIViewController+WSRouter.h"
 #import <objc/runtime.h>
-#import <WSBox/WSSwizzle.h>
+#import "WSSwizzle.h"
 
 static char const* router_viewWillDisappearCallbackKey = "router_viewWillDisappearCallbackKey";
 static char const* router_viewDidDisappearCallbackKey = "router_viewDidDisappearCallbackKey";

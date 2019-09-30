@@ -14,6 +14,7 @@
 #import "UIViewController+WSRouter.h"
 #import "WSRouter.h"
 #import "WSRouterHandler.h"
+#import "WSSwizzle.h"
 
 FOUNDATION_EXPORT double WSRouterVersionNumber;
 FOUNDATION_EXPORT const unsigned char WSRouterVersionString[];

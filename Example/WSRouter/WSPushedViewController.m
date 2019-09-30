@@ -7,7 +7,6 @@
 //
 
 #import "WSPushedViewController.h"
-#import <WSBox/WSBox.h>
 #import "WSRouter.h"
 
 @interface WSPushedViewController ()

@@ -39,5 +39,5 @@ An url-based and light-weight router for iOS app...
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'WSBox', '0.4.8'
+  # s.dependency 'WSBox', '0.4.8'
 end

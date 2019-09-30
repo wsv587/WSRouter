@@ -18,10 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "WSRouter/Classes/**/*",
-  "dependencies": {
-    "WSBox": [
-      "0.4.8"
-    ]
-  }
+  "source_files": "WSRouter/Classes/**/*"
 }

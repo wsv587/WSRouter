@@ -1,24 +1,16 @@
 PODS:
-  - WSBox (0.4.8)
-  - WSRouter (0.1.0):
-    - WSBox (= 0.4.8)
+  - WSRouter (0.1.1)
 
 DEPENDENCIES:
-  - WSBox
   - WSRouter (from `../`)
-
-SPEC REPOS:
-  https://github.com/cocoapods/specs.git:
-    - WSBox
 
 EXTERNAL SOURCES:
   WSRouter:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WSBox: 215672a269849a273aa68725d7e0c996025b0951
-  WSRouter: a107f6c429fd395469f5425ca37b5cf6bb98b03e
+  WSRouter: 8c820777c2e3568b2c5be817461ccdf3f5a62dfd
 
-PODFILE CHECKSUM: e7f9413afdd0c8382a51c3ec7b628745737a9a67
+PODFILE CHECKSUM: c9d81d743b3e14957a73724c58368b3dd2429dc0
 
-COCOAPODS: 1.6.1
+COCOAPODS: 1.5.3

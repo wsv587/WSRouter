@@ -334,18 +334,16 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-WSRouter_Example/Pods-WSRouter_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/WSBox/WSBox.framework",
+				"${SRCROOT}/Pods/Target Support Files/Pods-WSRouter_Example/Pods-WSRouter_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/WSRouter/WSRouter.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WSBox.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/WSRouter.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WSRouter_Example/Pods-WSRouter_Example-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WSRouter_Example/Pods-WSRouter_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		83B2381BAC374EDDC48268FD /* [CP] Check Pods Manifest.lock */ = {

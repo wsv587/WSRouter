@@ -26,17 +26,21 @@ Add all .h、.m files of the directory `WSRouter/Classes` to your project.
 Step 1:
 If you use Cocoapods to manage your project:
 `#import <WSRouter/WSRouter.h>`
+
 If you import WSRouter source code to your project:
 `#import WSRouter.h`
 
 Step 2:
 Register url in class method `+(void)load` by call WSRouter class method. Such as `WSRouter的registerRouterWithPrefixURL:handler:`
+
 Step 3:
 Transfer your viewController to next viewController by using `transferFromViewController:toURL:`
 
 ## Example
+
 ### 1.import
 `#import <WSRouter/WSRouter.h>`
+
 ### 2.register url
 ```ruby
 

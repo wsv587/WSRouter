@@ -21,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6FC0B01A2341FDD400FE0BBE /* WSWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FC0B0192341FDD400FE0BBE /* WSWebViewController.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		A9311660A2C049C51F2DBDD2 /* Pods_WSRouter_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F1EB94FC5C3E5E768EBB690 /* Pods_WSRouter_Tests.framework */; };
@@ -65,6 +66,8 @@
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6F1EB94FC5C3E5E768EBB690 /* Pods_WSRouter_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WSRouter_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6FC0B0182341FDD400FE0BBE /* WSWebViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSWebViewController.h; sourceTree = "<group>"; };
+		6FC0B0192341FDD400FE0BBE /* WSWebViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWebViewController.m; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A219DB773DA92D242ED1B95 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		7F387EAF574F3A1D536E4E1E /* Pods-WSRouter_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WSRouter_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WSRouter_Tests/Pods-WSRouter_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -163,6 +166,8 @@
 				D03D12A322573976000EE480 /* WSPushedViewController.m */,
 				D03D12A522573981000EE480 /* WSPresentedViewController.h */,
 				D03D12A622573981000EE480 /* WSPresentedViewController.m */,
+				6FC0B0182341FDD400FE0BBE /* WSWebViewController.h */,
+				6FC0B0192341FDD400FE0BBE /* WSWebViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -375,6 +380,7 @@
 				D03D12AA225739BB000EE480 /* WSRouterRegister.m in Sources */,
 				D03D12A422573976000EE480 /* WSPushedViewController.m in Sources */,
 				D03D12A722573981000EE480 /* WSPresentedViewController.m in Sources */,
+				6FC0B01A2341FDD400FE0BBE /* WSWebViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* WSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

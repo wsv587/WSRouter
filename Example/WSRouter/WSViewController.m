@@ -34,19 +34,26 @@
 }
 
 - (IBAction)push:(id)sender {
-    [WSRouter transferFromViewController:self
-                                   toURL:[NSURL URLWithString:@"ws://www.ws.com/first?uid=666?title=title"]];
+//    [WSRouter transferFromViewController:self
+//                                   toURL:[NSURL URLWithString:@"ws://www.ws.com/first?uid=666?title=title"]];
+    [WSRouter openUrl:@"ws://www.ws.com/first?uid=666?title=title" fromViewController:self];
 }
 
 - (IBAction)pushWithCallback:(id)sender {
-    [WSRouter transferFromViewController:self
-                                   toURL:[NSURL URLWithString:@"ws://www.ws.com/first?uid=666"]
-               viewWillDisappearCallBack:^(UIViewController *destViewController, id callbackData) {
-                   NSLog(@"%@",callbackData);
-               }];
+//    [WSRouter transferFromViewController:self
+//                                   toURL:[NSURL URLWithString:@"ws://www.ws.com/first?uid=666"]
+//               viewWillDisappearCallBack:^(UIViewController *destViewController, id callbackData) {
+//                   NSLog(@"%@",callbackData);
+//               }];
+    [WSRouter openUrl:@"ws://www.ws.com/first?uid=666" fromViewController:self completion:nil viewWillDisappearCallBack:^(UIViewController *destViewController, id callbackData) {
+        NSLog(@"%@",callbackData);
+
+    }];
 }
 
 - (IBAction)present:(id)sender {
-    [WSRouter transferFromViewController:self toURL:[NSURL URLWithString:@"ws://www.ws.com/second?uid=999"]];
+//    [WSRouter transferFromViewController:self toURL:[NSURL URLWithString:@"ws://www.ws.com/second?uid=999"]];
+    
+    [WSRouter openUrl:@"ws://www.ws.com/second?uid=999" fromViewController:self];
 }
 @end

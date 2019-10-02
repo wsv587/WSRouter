@@ -12,6 +12,7 @@
 
 #import "WSPushedViewController.h"
 #import "WSPresentedViewController.h"
+#import "WSWebViewController.h"
 
 @implementation WSRouterRegister
 + (void)load {
@@ -44,7 +45,6 @@
         return destViewController;
     }];
 }
-
 
 //NSURL *url = [NSURL URLWithString:@"ws://www.ws.com/first?uid=999&bid=666"];
 //id query = url.query;               // uid=999&bid=666
